@@ -1,31 +1,24 @@
-.border {
+#border {
+	margin: 30px auto;
 	border: 1px solid black;
-	margin: 25px auto;
 	width: 400px;
 	height: 400px;
-	background-color: green;
+	background-color: yellow; 
 }
 
-h1 {
+#h1 {
 	text-align: center;
-	margin: 170px 0;
-	color: #f5e42c;
+	margin-top: 150px; 
 }
 
-#button {
+#buttonId {
 	display: block;
-	margin: 20px auto;
-	text-decoration: none;
 	text-transform: uppercase;
-	color: black;
-	background-color: white; 
-	width: 100px;
-	height: 30px;
-	font-weight: bold;
-	transition:  .3s;
-}
-
-#button:hover {
 	color: white;
 	background-color: black;
+	border-radius: 10px;
+	margin: 30px auto;
+	text-decoration: none;
+	width: 100px;
+	height: 40px;
 }
