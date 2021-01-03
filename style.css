@@ -16,9 +16,10 @@
 	text-transform: uppercase;
 	color: white;
 	background-color: black;
-	border-radius: 10px;
+	border-radius: 25px;
 	margin: 30px auto;
 	text-decoration: none;
-	width: 100px;
-	height: 40px;
+	width: 250px;
+	height: 70px;
+	font-size: 50px;
 }
