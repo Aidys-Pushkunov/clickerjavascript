@@ -8,12 +8,12 @@ buttonId.addEventListener('click', function() {
 		setTimeout(secTime, 19500);
 	};
 
-	if (count == 100) {
-		h1.textContent = 'You The Best!';
-	};
-
 	count++;
 	h1.textContent = 'Count: ' + count;
+
+	if (count === +100) {
+		h1.textContent = 'You Win!';
+	};
 });
 
 function secTime() {
