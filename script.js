@@ -5,7 +5,7 @@ let count    = 0;
 buttonId.addEventListener('click', function() {
 
 	if (count == 0) {
-		setTimeout(secTime, 15000);
+		setTimeout(secTime, 19500);
 	};
 
 	if (count == 100) {
